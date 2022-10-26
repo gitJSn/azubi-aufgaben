@@ -11,5 +11,6 @@ public class Main {
         Bag<String, Integer> heaviestBag = Collections.max(taschen, new SortTascheGewicht());
 
         System.out.println(heaviestBag.getElement());
+        // halskdjflkajsdölfkjasdf
     }
 }
