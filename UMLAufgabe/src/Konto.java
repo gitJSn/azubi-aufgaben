@@ -1,4 +1,5 @@
 public class Konto {
+    //TEST
     private int kontonummer;
     private int kontostand;
     private Person besitzer;
