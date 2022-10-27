@@ -1,4 +1,5 @@
 public class Konto {
+    //TEST
     private int kontonummer;
     private int kontostand;
     private Person besitzer;
@@ -8,9 +9,9 @@ public class Konto {
     }
 
     public void ueberweisen(Konto zielkonto, int betrag) {
-        // von konto abziehen
+
         kontostand -= betrag;
-        // zielkonto erhöhen
+
         zielkonto.erhoeheKontostand(betrag);
     }
 
