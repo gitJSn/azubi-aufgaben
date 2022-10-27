@@ -11,7 +11,7 @@ public class Konto {
         // von konto abziehen
         kontostand -= betrag;
         // zielkonto erhöhen
-        zielkonto.kontostand += betrag;
+        zielkonto.erhoeheKontostand(betrag);
     }
 
     public void erhoeheKontostand(int value) {
