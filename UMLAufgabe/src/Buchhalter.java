@@ -8,12 +8,11 @@ public class Buchhalter extends Mitarbeiter {
     public Buchhalter() {
     }
 
-    public void mitarbeiterBezahlen(Krankenpfleger pfleger) {
-        firmenkonto.ueberweisen(pfleger.getKonto(), pfleger.getGehalt());
+    public void mitarbeiterBezahlen(Mitarbeiter mitarbeiter) {
+        firmenkonto.ueberweisen(mitarbeiter.getKonto(), mitarbeiter.getGehalt());
     }
 
     public void rechnungStellen(Patient patient) {
-        // ???
         // TODO
     }
 

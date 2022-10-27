@@ -3,8 +3,6 @@ import java.util.Optional;
 
 public class Krankenpfleger extends Mitarbeiter {
     private ArrayList<Patient> patienten;
-    private int gehalt;
-    private Konto konto;
 
     public Krankenpfleger(int aktennummer, int gehalt) {
         this.aktennummer = aktennummer;
@@ -26,11 +24,5 @@ public class Krankenpfleger extends Mitarbeiter {
         this.konto = value;
     }
 
-    public Konto getKonto() {
-        return konto;
-    }
 
-    public int getGehalt() {
-        return gehalt;
-    }
 }

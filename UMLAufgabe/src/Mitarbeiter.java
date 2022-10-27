@@ -5,6 +5,10 @@ public abstract class Mitarbeiter extends Person {
     protected Date einstellungsdatum;
     protected boolean eingestellt;
 
+    protected int gehalt;
+    protected Konto konto;
+
+
     public void neuerMitarbeiter(int aktennummer) {
         this.aktennummer = aktennummer;
     }
@@ -18,5 +22,12 @@ public abstract class Mitarbeiter extends Person {
         eingestellt = false;
     }
 
+    public Konto getKonto() {
+        return konto;
+    }
+
+    public int getGehalt() {
+        return gehalt;
+    }
 
 }
