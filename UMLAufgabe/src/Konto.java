@@ -9,9 +9,9 @@ public class Konto {
     }
 
     public void ueberweisen(Konto zielkonto, int betrag) {
-        // von konto abziehen
+
         kontostand -= betrag;
-        // zielkonto erhöhen
+
         zielkonto.erhoeheKontostand(betrag);
     }
 
