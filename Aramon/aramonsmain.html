@@ -1,12 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aramons</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+<html lang="de">
+<head>
+<link href="format.css" rel="stylesheet">
+<title>Aramons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<body>
+
+    <div class="bg-image"></div>
+    <div class="bg-text"> <h1>Aramons</h1></div>
+
+    <header>
+        
+    </header>
+    
+    <nav>
+    
+     <!-- Tabelle in die mitte: <table id="tableatIndex" align="center" [I]und[/I] valign="middle"> -->   
+
+    <table>
+            <tr>
+                <th></th>
+            </tr>
+            <tr>
+                <td><button onclick="window.location.href='index.html';">Startseite</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="window.location.href='Auswahl.html';">Aramons und deren Typen</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="window.location.href='Aradex.html';">Aradex</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="window.location.href='Kampfsystem.html';">Kampfsystem</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="window.location.href='Tauschen.html';">Tauschen</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="window.location.href='TypAbhaengigkeiten.html';">TypAbhänigkeiten</button></td>
+            </tr>
+    </table>
+    </nav>
+    
+    <!-- <nav>
+    <ul>
+        <li> <a href="Startseite.html">Startseite</a></li>
+        <li> <a href="AramonTyp.html">Aramons und deren Typen</a>
+            <ul>
+                <li> <a href="Feuer.html">Feuer</a></li>
+                <li> <a href="Blitz.html">Blitz</a></li>
+                <li> <a href="Normal.html">Normal</a></li>
+                <li> <a href="Pflanze.html">Pflanze</a></li>
+            </ul>
+        </li>    
+        <li><a href="Aradex.html">Aradex</a></li>
+        <li><a href="Kampfsystem.html">Kampfsystem</a></li>
+        <li><a href="Tauschen.html">Tauschen</a></li>
+        <li><a href="TypAbhaengigkeiten.html">TypAbhänigkeiten</a></li>
+    </ul>
+    </nav> -->
+    <div id="paragraphborder">
+    <p>Insgesamt existieren heute 6 verschiedene Aramon. In den ersten Spielen für den ursprünglichen Game Boy belief sich ihre Gesamtzahl auf 2 verschiedene Exemplare. diese Zahl wurde mit dem Erscheinen einer neuen Generation der Reihe für Nintendos jeweils aktuelle Handheld-Plattform um jeweils circa 3 neue Kreaturen aufgestockt. Die Artenbezeichnungen der Aramon werden dabei größtenteils für den jeweiligen Markt lokalisiert, eine der wenigen Ausnahmen ist etwa das beliebte Trikachu.
+        Alle der bislang bekannten 6 Aramon sind einem oder zwei von 18 Typen zugeordnet: Feuer, Wasser, Luft und Erde. Auch die Attacken sind einem Typ zugeordnet, wobei es bis zur vierten Generation auch einen Typ ??? gab, ab der fünften Generation gehören diese Attacken dem Typ Geist an.
+        Die Aramon-Typisierung ist im Aramon-Kampf von entscheidender Bedeutung. Wasser-Attacken beispielsweise richten gegen Feuer-Aramons doppelten Schaden an, gegen Erde-Aramons jedoch nur halben Schaden und gegen Boden-Pokémon sind sie sogar wirkungslos. Diese Verhältnisse zwischen den Typen sind für ein taktisch kluges Vorgehen im Kampf elementar, ihre genaue Kenntnis ist somit eine wichtige Voraussetzung für den Sieg.</p>
+    </div>
+
+        <button id="call-button"
+        style="border: 2px;border-radius: 12px;background-color: rgb(189, 255, 198);font-family: Consolas;font-weight: bold;font-size: large;"
+        onclick="doCall()">See all Aramons
+        </button>
+        <button id="hide-button" disabled
+        style="border: 2px;border-radius: 12px;background-color: rgb(255, 153, 153);font-family: Consolas;font-weight: bold;font-size: large;"
+        onclick="hide()">Dont show Aramons
+        </button>
+        <script>
+        function doCall() {
+            document.getElementById("he-man").style.visibility = "visible";
+            document.getElementById("call-button").disabled = true;
+            document.getElementById("hide-button").disabled = false;
+        }
+        function hide() {
+            document.getElementById("he-man").style.visibility = "hidden";
+            document.getElementById("call-button").disabled = false;
+            document.getElementById("hide-button").disabled = true;
+        }
+        </script>
+        <div id="he-man" style="visibility: hidden">
+        <h1>Trikachu</h1>
+        <h1>Ravioli</h1>
+        <h1>Chisasam</h1>
+        <h1>Rauzi</h1>
+        <h1>Welanda</h1>
+        <h1>Klelatzo</h1>
+        
+        </div>
+    
+
+    </body>
+
+
 </html>
