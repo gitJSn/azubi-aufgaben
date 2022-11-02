@@ -1,0 +1,73 @@
+/*https://www.youtube.com/watch?v=FEmysQARWFU*/
+
+header {
+    box-shadow: 0px 5px 0px 0px #232428;
+    /*TODO: FIX NAV BAR*/
+}
+
+.container {            /*Container class for navbar*/
+    margin: 0 auto;
+    margin-left: 10px;  /*rechts links abstand*/
+    margin-right: 10px;
+}
+
+header {
+    background-color: #36393f;
+}
+
+header::after {         /*Clearfix https://www.w3schools.com/howto/howto_css_clearfix.asp */
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {                 /*logo*/
+    float: left;
+}
+
+.container nav{         /*nav (beinhaltet liste) im header*/
+    float: right;
+}
+
+.container ul {         /**/
+    margin: 0;
+    padding: 0;
+    list-style: none;   /*punkte bei liste entfernen*/
+}
+
+.container li {
+    display: inline-block;
+    margin-left: 35px;
+    padding-top: 16px;
+
+    position: relative;
+}
+
+.container a {
+    color: #a3a6aa; 
+    text-decoration: none;      /*unterstriche unter links entfernen*/
+    text-transform: uppercase;  /*selbsterklärend*/
+    font-size: 15px;
+}
+
+.container a:hover {
+    color: #ffff;    /*hover color*/
+}
+
+.container a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #ffff;     /*color bar*/
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.container a:hover::before {
+    width: 100%;
+}
