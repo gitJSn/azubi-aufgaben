@@ -2,7 +2,7 @@
 
 header {
     box-shadow: 0px 5px 0px 0px #232428;
-    /*TODO: FIX NAV BAR*/
+    /*TODO: FIX NAV BAR (sticky) */
 }
 
 .container {            /*Container class for navbar*/
@@ -38,7 +38,7 @@ header::after {         /*Clearfix https://www.w3schools.com/howto/howto_css_cle
 .container li {
     display: inline-block;
     margin-left: 35px;
-    padding-top: 16px;
+    padding-top: 15px;
 
     position: relative;
 }
@@ -48,6 +48,7 @@ header::after {         /*Clearfix https://www.w3schools.com/howto/howto_css_cle
     text-decoration: none;      /*unterstriche unter links entfernen*/
     text-transform: uppercase;  /*selbsterklärend*/
     font-size: 15px;
+    padding: 17px 0px 17px 0px;              /* top right bottom left; (moving clockwise) */
 }
 
 .container a:hover {
