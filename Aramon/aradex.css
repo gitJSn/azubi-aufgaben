@@ -1,0 +1,50 @@
+.AraDex{
+    margin: 0;
+    padding: 0;
+    list-style: none;   /*punkte bei liste entfernen*/
+}
+
+.AraDex li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.AraDex img {
+    height: 205px;      /*Scale images down / up*/
+    border-radius: 5px; /*rounded corners of images*/
+}
+
+.AraDex p {
+    margin: 3px;
+}
+
+.AraMonNo {
+    font-size: 15px;    /*Font size of entry number*/
+    color: rgba(255, 255, 255, 0.65);   /*Font color of entry number*/
+}
+
+.pill {
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.bgGras {
+    color: black;
+    background-color: #9bcc50;
+}
+
+.bgFeuer {
+    color: white;
+    background-color: #fd7d24;
+}
+
+.bgWasser {
+    color: white;
+    background-color: #4592c4;
+}
+
+.bgLuft {
+    color: black;
+    background-color: #3dc7ef;
+}

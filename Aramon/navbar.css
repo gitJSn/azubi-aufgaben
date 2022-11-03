@@ -1,11 +1,11 @@
 /*https://www.youtube.com/watch?v=FEmysQARWFU*/
 
 header {
-    box-shadow: 0px 5px 0px 0px #232428;
+    box-shadow: 0px 5px 0px 0px #232428;    /* top | right | bottom | left */
     /*TODO: FIX NAV BAR (sticky) */
 }
 
-.container {            /*Container class for navbar*/
+.navigationbar {            /*navigationbar class for navbar*/
     margin: 0 auto;
     margin-left: 10px;  /*rechts links abstand*/
     margin-right: 10px;
@@ -25,17 +25,17 @@ header::after {         /*Clearfix https://www.w3schools.com/howto/howto_css_cle
     float: left;
 }
 
-.container nav{         /*nav (beinhaltet liste) im header*/
+.navigationbar nav{         /*nav (beinhaltet liste) im header*/
     float: right;
 }
 
-.container ul {         /**/
+.navigationbar ul {         /**/
     margin: 0;
     padding: 0;
     list-style: none;   /*punkte bei liste entfernen*/
 }
 
-.container li {
+.navigationbar li {
     display: inline-block;
     margin-left: 35px;
     padding-top: 15px;
@@ -43,7 +43,7 @@ header::after {         /*Clearfix https://www.w3schools.com/howto/howto_css_cle
     position: relative;
 }
 
-.container a {
+.navigationbar a {
     color: #a3a6aa; 
     text-decoration: none;      /*unterstriche unter links entfernen*/
     text-transform: uppercase;  /*selbsterklärend*/
@@ -51,16 +51,16 @@ header::after {         /*Clearfix https://www.w3schools.com/howto/howto_css_cle
     padding: 17px 0px 17px 0px;              /* top right bottom left; (moving clockwise) */
 }
 
-.container a:hover {
+.navigationbar a:hover {
     color: #ffff;    /*hover color*/
 }
 
-.container a::before {
+.navigationbar a::before {
     content: '';
     display: block;
     height: 5px;
     width: 100%;
-    background-color: #ffff;     /*color bar*/
+    background-color: #ffff;     /*color bar über text in navbar*/
 
     position: absolute;
     top: 0;
@@ -69,6 +69,10 @@ header::after {         /*Clearfix https://www.w3schools.com/howto/howto_css_cle
     transition: all ease-in-out 250ms;
 }
 
-.container a:hover::before {
+.navigationbar a:hover::before {
     width: 100%;
+}
+
+.navigationbar img {
+    margin: 5px 0px 0px 0px; /* top | right | bottom | left */
 }

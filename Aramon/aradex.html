@@ -2,11 +2,11 @@
 <html lang="de">
     <head>
 
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-        <!--Link font from google Fonts (main.css / body{})-->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> <!--Link font from google Fonts (main.css / body{})-->
+        <link rel="stylesheet" href="aradex.css">
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="main.css">
-        <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="assets/favicon.png" type="image/png"> <!--Favicon-->
 
         <title>Aradex Lexikon</title>
 
@@ -15,7 +15,7 @@
     <body>
         <!-- Navigationbar https://www.youtube.com/watch?v=FEmysQARWFU -->
         <header>
-            <div class="container">
+            <div class="navigationbar">
                 <img src="assets/logo.png" alt="logo" class="logo" height="50">
                 <nav>
                     <ul>
@@ -30,51 +30,110 @@
             </div>
         </header>
 
-        <h1>Willkommen im Aramon Lexikon!</h1>
+        <h1 style="margin-bottom: 5px;">Willkommen im AraDex</h1>
+        <h6 style="margin-top: 5px; color: rgba(255, 255, 255, 0.5);">Der AraDex ist eine Auflistung aller AraMons</h6>
 
-        <table border="1">
-            <tr>
-                <th>Aramon</th>
-                <th>Bild</th>
-                <th>Infos</th>
+        <!--Hier beginnen die einträge des AraDex-->
+        <ul class="AraDex">
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/samsabis.png" alt="Image of Samsabis">
+                    <p class="AraMonNo">#001</p>
+                    <p>Samsabis</p>
+                    <span class="pill bgGras">Gras</span>
+                    <span class="pill bgFeuer">Feuer</span>
+                </div>
+            </li>
 
-            </tr>
-            <tr>
-                <td id="fronttable">Trikachu</td>
-                <td><img src="../PicturesHTML/Trikachu.png" alt="Trikachu" width="400" height="400"></td>
-                <td>Element: Blitz
-                    Entwicklungen: Pichu,Pikachu,Raichu</td>
-            </tr>
-            <tr>
-                <td id="fronttable">Ravioli</td>
-                <td><img src="../PicturesHTML/Ravioli.png" alt="Ravioli" width="400" height="400"></td>
-                <td>Element: Normal
-                    Entwicklungen: nur mit Aramon-Steinen!</td>
-            </tr>
-            <tr>
-                <td id="fronttable">Chisasam</td>
-                <td><img src="../PicturesHTML/chisasam.png" alt="Chisasam" width="400" height="400"></td>
-                <td>Element: Pflanze
-                    Entwicklungen: Chisasam, Chisaknosp, Chisaflor </td>
-            </tr>
-            <tr>
-                <td id="fronttable">Rauzi</td>
-                <td><img src="../PicturesHTML/Rauzi.png" alt="Rauzi" width="400" height="400"></td>
-                <td>Element: Normal
-                    Entwicklungen: Rauzi, Rauzilikat </td>
-            </tr>
-            <tr>
-                <td id="fronttable">Welanda</td>
-                <td><img src="../PicturesHTML/Welanda.png" alt="Welanda" width="400" height="400"></td>
-                <td>Element: Feuer
-                    Entwicklungen: Welanda, Waltexo, Walurak</td>
-            </tr>
-            <tr>
-                <td id="fronttable">Klelatzo</td>
-                <td><img src="../PicturesHTML/Klelatzo.png" alt="Klelatzo" width="400" height="400"></td>
-                <td>Element: Normal
-                    Entwicklungen: Klelatzo</td>
-            </tr>
-        </table>
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/muglanda.png" alt="Image of Muglanda">
+                    <p class="AraMonNo">#002</p>
+                    <p>Muglanda</p>
+                    <span class="pill bgFeuer">Feuer</span>
+                    <span class="pill bgWasser">Wasser</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/texulg.png" alt="Image of Texulg">
+                    <p class="AraMonNo">#003</p>
+                    <p>Texulg</p>
+                    <span class="pill bgFeuer">Feuer</span>
+                    <span class="pill bgWasser">Wasser</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/karulg.png" alt="Image of Karulg">
+                    <p class="AraMonNo">#004</p>
+                    <p>Karulg</p>
+                    <span class="pill bgFeuer">Feuer</span>
+                    <span class="pill bgWasser">Wasser</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/iggysch.png" alt="Image of Iggysch">
+                    <p class="AraMonNo">#004</p>
+                    <p>Iggysch</p>
+                    <span class="pill bgWasser">Wasser</span>
+                    <span class="pill bgFeuer">Feuer</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/lokisch.png" alt="Image of Lokisch">
+                    <p class="AraMonNo">#005</p>
+                    <p>Lokisch</p>
+                    <span class="pill bgWasser">Wasser</span>
+                    <span class="pill bgGras">Gras</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/toktur.png" alt="Image of Toktur">
+                    <p class="AraMonNo">#006</p>
+                    <p>Toktur</p>
+                    <span class="pill bgWasser">Wasser</span>
+                    <span class="pill bgGras">Gras</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/pyrau.png" alt="Image of Pyrau">
+                    <p class="AraMonNo">#007</p>
+                    <p>Pyrau</p>
+                    <span class="pill bgGras">Gras</span>
+                    <span class="pill bgFeuer">Feuer</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/consaf.png" alt="Image of Consaf">
+                    <p class="AraMonNo">#008</p>
+                    <p>Consaf</p>
+                    <span class="pill bgGras">Gras</span>
+                    <span class="pill bgFeuer">Feuer</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="AraDexEntry">
+                    <img src="AraMonImg/botmes.png" alt="Image of Botmes">
+                    <p class="AraMonNo">#009</p>
+                    <p>Botmes</p>
+                    <span class="pill bgGras">Gras</span>
+                    <span class="pill bgFeuer">Feuer</span>
+                </div>
+            </li>
+        </ul>
     </body>
 </html>
