@@ -1,2 +1,2 @@
-Trennzeichen der csv Datei muss von einem ; auf ein , geaendert werden
-z.B. mit Notepad++
+Trennzeichen der csv Datei ist ein ; (Excel Standard)
+Falls anderes Trennzeichen: line6 ... delimiter='*your delimiter*'

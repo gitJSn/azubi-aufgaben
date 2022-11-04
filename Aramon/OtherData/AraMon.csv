@@ -1,11 +1,11 @@
-PokeMon (ignore),Name,Typ,Schwaechen
-Bisasam,Samsabis,Gras,Feuer
-Glumanda,Muglanda,Feuer,Wasser
-Glutexo,Texulg,Feuer,Wasser
-Glurak,Karulg,Feuer,Wasser
-Shiggy,Iggysch,Wasser,Feuer
-Schillok,Lokisch,Wasser,Gras
-Turtok,Toktur,Wasser,Gras
-Raupy,Pyrau,Gras,Feuer
-Safcon,Consaf,Gras,Feuer
-Smettbo,Botmes,Gras,Feuer
+PokeMon (ignore);ID;Name;Typ;Schwaechen
+Bisasam;#001;Samsabis;Gras;Feuer
+Glumanda;#002;Muglanda;Feuer;Wasser
+Glutexo;#003;Texulg;Feuer;Wasser
+Glurak;#004;Karulg;Feuer;Wasser
+Shiggy;#005;Iggysch;Wasser;Feuer
+Schillok;#006;Lokisch;Wasser;Gras
+Turtok;#007;Toktur;Wasser;Gras
+Raupy;#008;Pyrau;Gras;Feuer
+Safcon;#009;Consaf;Gras;Feuer
+Smettbo;#010;Botmes;Gras;Feuer

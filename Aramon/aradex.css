@@ -23,28 +23,28 @@
     color: rgba(255, 255, 255, 0.65);   /*Font color of entry number*/
 }
 
-.pill {
+.pill {                     /* pill design für attirbute */
     padding: 3px;
     border-radius: 4px;
     font-size: 11px;
 }
 
-.bgGras {
+.bgGras {                       /*farbe für attributfeld*/
     color: black;
     background-color: #9bcc50;
 }
 
-.bgFeuer {
+.bgFeuer {                      /*farbe für attributfeld*/
     color: white;
     background-color: #fd7d24;
 }
 
-.bgWasser {
+.bgWasser {                     /*farbe für attributfeld*/
     color: white;
     background-color: #4592c4;
 }
 
-.bgLuft {
+.bgLuft {                       /*farbe für attributfeld*/
     color: black;
     background-color: #3dc7ef;
 }
