@@ -10,7 +10,7 @@ with open('AraMon.csv', 'r') as csv_file:
     for line in csv_reader:
         print("<li>")
         print("    <div class=\"AraDexEntry\">")
-        print("        <img src=\"AraMonImg/" + line[2].lower() + ".png\" alt=\"Image of Samsabis\">") #make name lowe case
+        print("        <img src=\"AraMonImg/" + line[2].lower() + ".png\" alt=\"Image of " + line[2] +"\">") #make name lowe case
         print("        <p class=\"AraMonNo\">" + line[1] + "</p>")
         print("        <p>" + line[2] + "</p>")
         print("        <span class=\"pill bg" + line[3] + "\">" + line[3] + "</span>")

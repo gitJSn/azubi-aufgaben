@@ -1,4 +1,4 @@
-PokeMon (ignore);ID;Name;Typ;Schwaechen
+PokeMon (ignore);ID;Name;Typ 1;Typ 2
 Bisasam;#001;Samsabis;Gras;Feuer
 Glumanda;#002;Muglanda;Feuer;Wasser
 Glutexo;#003;Texulg;Feuer;Wasser
@@ -9,3 +9,4 @@ Turtok;#007;Toktur;Wasser;Gras
 Raupy;#008;Pyrau;Gras;Feuer
 Safcon;#009;Consaf;Gras;Feuer
 Smettbo;#010;Botmes;Gras;Feuer
+;#011;Arber;Gras;Gras

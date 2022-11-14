@@ -1,6 +1,7 @@
 /*https://www.youtube.com/watch?v=FEmysQARWFU*/
 
 header {
+    margin: 0px;
     box-shadow: 0px 5px 0px 0px #232428;    /* top | right | bottom | left */
     /*TODO: FIX NAV BAR (sticky) */
 }
